@@ -1,0 +1,95 @@
+﻿@page "/trucklist"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Автомобили в разборе</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск автомобилей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var truck in TruckDetails.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@truck.ImageUrl" alt="@truck.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@truck.Name</h3>
+                <p class="list-info">@truck.Engine</p>
+                <p class="list-info">@truck.Gearbox</p>
+                <p class="list-info">@truck.Reducer</p>
+                <p class="list-info">@truck.Year</p>
+                <button class="details-button" @onclick="() => ShowModal(truck.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < TruckDetails.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Truck> TruckDetails = new()
+    {
+        new Truck { Name = "Volvo FH12", ImageUrl = "/images/trucks/truck1.jpg", Engine = "Двигатель: D12C", Gearbox = "Коробка: ZF 16S", Reducer = "Редуктор: RSS1344C", Year = "Год: 2004" },
+        new Truck { Name = "MAN TGX", ImageUrl = "/images/trucks/truck2.jpg", Engine = "Двигатель: D2676", Gearbox = "Коробка: TipMatic", Reducer = "Редуктор: HY-1350", Year = "Год: 2010" },
+        new Truck { Name = "Scania R420", ImageUrl = "/images/trucks/truck3.jpg", Engine = "Двигатель: DC12", Gearbox = "Коробка: GRS890", Reducer = "Редуктор: R780", Year = "Год: 2007" },
+        new Truck { Name = "Mercedes Actros", ImageUrl = "/images/trucks/truck4.jpg", Engine = "Двигатель: OM501", Gearbox = "Коробка: Powershift", Reducer = "Редуктор: HL6", Year = "Год: 2012" },
+        new Truck { Name = "DAF XF105", ImageUrl = "/images/trucks/truck5.jpg", Engine = "Двигатель: MX340", Gearbox = "Коробка: ZF AS-Tronic", Reducer = "Редуктор: SR1344", Year = "Год: 2009" },
+        new Truck { Name = "IVECO Stralis", ImageUrl = "/images/trucks/truck6.jpg", Engine = "Двигатель: Cursor 13", Gearbox = "Коробка: Eurotronic", Reducer = "Редуктор: MS17x", Year = "Год: 2011" },
+        new Truck { Name = "Renault Magnum", ImageUrl = "/images/trucks/truck7.jpg", Engine = "Двигатель: DXi13", Gearbox = "Коробка: Optidriver", Reducer = "Редуктор: RZ13160", Year = "Год: 2008" },
+        new Truck { Name = "Volvo FM", ImageUrl = "/images/trucks/truck8.jpg", Engine = "Двигатель: D13K", Gearbox = "Коробка: I-Shift", Reducer = "Редуктор: RSS1360", Year = "Год: 2015" },
+        new Truck { Name = "MAN TGS", ImageUrl = "/images/trucks/truck9.jpg", Engine = "Двигатель: D2066", Gearbox = "Коробка: TipMatic", Reducer = "Редуктор: HY-1200", Year = "Год: 2012" }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, TruckDetails.Count);
+    }
+
+    private void Search()
+    {
+       
+    }
+
+  }

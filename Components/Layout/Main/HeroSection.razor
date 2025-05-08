@@ -1,0 +1,37 @@
+﻿
+@using AtbWeb.Components
+@using AtbWeb.Components.Scripts
+
+@code {
+    private bool isModalOpen = false;
+
+    private void OpenModal()
+    {
+        isModalOpen = true;
+    }
+
+    private void CloseModal()
+    {
+        isModalOpen = false;
+    }
+}
+
+<div id="hero" class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>ГРУЗОПЕРЕВОЗКИ И РАЗБОР ГРУЗОВЫХ АВТОМОБИЛЕЙ В САНКТ-ПЕТЕРБУРГЕ</h1>
+            <p>Наша компания «АТБ-14» занимается грузоперевозками и выкупом китайских грузовых автомобилей, а также продажей запчастей с них.</p>
+            <p>«АТБ-14» – это надежный партнер, который гарантирует высокое качество услуг, индивидуальный подход к каждому клиенту и выгодные условия сотрудничества.</p>
+            <button class="hero-btn" @onclick="OpenModal">ЗАКАЗАТЬ ЗВОНОК</button>
+        </div>
+        <div class="hero-image">
+            <img src="images/truck.png?v=2" alt="Грузовик">
+        </div>
+    </div>
+</div>
+
+
+@if (isModalOpen)
+{
+    <CallRequestForm OnClose="CloseModal" />
+}

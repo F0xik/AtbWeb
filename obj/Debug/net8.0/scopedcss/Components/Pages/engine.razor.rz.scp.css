@@ -1,0 +1,200 @@
+.truck-list-container[b-ynzxj4bijk] {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.truck-list-header[b-ynzxj4bijk] {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.section-title[b-ynzxj4bijk] {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+    .section-title[b-ynzxj4bijk]::after {
+        content: "";
+        display: block;
+        width: 320px;
+        height: 3px;
+        background: red;
+        margin: 5px auto 0;
+    }
+
+.header-controls[b-ynzxj4bijk] {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.search-box[b-ynzxj4bijk] {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper[b-ynzxj4bijk] {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input[b-ynzxj4bijk] {
+    width: 1070px; /* Уменьшена ширина для учета кнопки поиска */
+    height: 35px;
+    padding: 8px 40px 8px 40px; /* Отступы для кнопки фильтра слева и поиска справа */
+    border: 2px solid #DE1919;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+    .search-input:focus[b-ynzxj4bijk] {
+        border-color: #B50000;
+        box-shadow: 0 0 0 2px #DE1919;
+    }
+
+.search-icon[b-ynzxj4bijk] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #DE1919;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+    .search-icon img[b-ynzxj4bijk] {
+        width: 20px;
+        height: 20px;
+        filter: brightness(0) invert(1);
+    }
+
+    .search-icon:hover[b-ynzxj4bijk] {
+        background-color: #B50000;
+    }
+
+.filter-button[b-ynzxj4bijk] {
+    background-color: #DE1919;
+    width: 80px;
+    height: 35px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+    .filter-button:hover[b-ynzxj4bijk] {
+        background-color: #B50000;
+    }
+
+.truck-grid[b-ynzxj4bijk] {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.truck-card[b-ynzxj4bijk] {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+    .truck-card:hover[b-ynzxj4bijk] {
+        transform: scale(1.03);
+    }
+
+.truck-image-container[b-ynzxj4bijk] {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.truck-image[b-ynzxj4bijk] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.truck-name[b-ynzxj4bijk] {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+    margin-top: 20px;
+}
+
+.truck-info[b-ynzxj4bijk] {
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+    margin: 5px 0;
+}
+
+.details-button[b-ynzxj4bijk] {
+    background-color: #DE1919;
+    width: 150px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+    .details-button:hover[b-ynzxj4bijk] {
+        background-color: #B50000;
+    }
+
+.load-more-container[b-ynzxj4bijk] {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.load-more-button[b-ynzxj4bijk] {
+    background-color: #DE1919;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+    .load-more-button:hover[b-ynzxj4bijk] {
+        background-color: #B50000;
+    }

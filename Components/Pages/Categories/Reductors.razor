@@ -1,0 +1,98 @@
+﻿@inject IJSRuntime JS
+@page "/reductors"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Редукторы</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск деталей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var detail in ReductorDetails.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@detail.ImageUrl" alt="@detail.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@detail.Name</h3>
+                <p class="list-info">@detail.Description</p>
+                <p class="list-coast">@detail.Coast ₽</p>
+                <button class="details-button" @onclick="() => ShowModal(detail.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < ReductorDetails.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Detail> ReductorDetails = new()
+    {
+        new Detail { Name = "Редуктор цилиндрический", ImageUrl = "/images/reductors/cylindrical-gearbox.jpg", Description = "Цилиндрический редуктор для передачи мощности", Coast = 15000 },
+        new Detail { Name = "Редуктор червячный", ImageUrl = "/images/reductors/worm-gearbox.jpg", Description = "Червячный редуктор для промышленного использования", Coast = 20000 },
+        new Detail { Name = "Планетарный редуктор", ImageUrl = "/images/reductors/planetary-gearbox.jpg", Description = "Планетарный редуктор с высокой нагрузочной способностью", Coast = 25000 },
+        new Detail { Name = "Редуктор с вариатором", ImageUrl = "/images/reductors/variator-gearbox.jpg", Description = "Редуктор с плавной регулировкой скорости", Coast = 18000 },
+        new Detail { Name = "Гипоидный редуктор", ImageUrl = "/images/reductors/hypoid-gearbox.jpg", Description = "Гипоидный редуктор для тяжелых машин", Coast = 22000 },
+        new Detail { Name = "Конический редуктор", ImageUrl = "/images/reductors/conical-gearbox.jpg", Description = "Конический редуктор для высоких скоростей", Coast = 17000 }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, ReductorDetails.Count);
+    }
+    private async Task ScrollToTop()
+    {
+        await JS.InvokeVoidAsync("scrollToTop");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToTop();
+        }
+    }
+ 
+}

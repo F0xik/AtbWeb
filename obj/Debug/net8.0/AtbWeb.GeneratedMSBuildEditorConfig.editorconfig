@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AtbWeb
+build_property.RootNamespace = AtbWeb
+build_property.ProjectDir = C:\Users\tanas\Desktop\AtbWeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tanas\Desktop\AtbWeb
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Main/TrucksList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpblxUcnVja3NMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Bodycar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEJvZHljYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/BrakingSystem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEJyYWtpbmdTeXN0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Cabins.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXENhYmlucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Conditioner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXENvbmRpdGlvbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/CoolingSystem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXENvb2xpbmdTeXN0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Electric.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEVsZWN0cmljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Engine.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEVuZ2luZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/ExhaustSystem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEV4aGF1c3RTeXN0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/FuelEquipment.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEZ1ZWxFcXVpcG1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Gearbox.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXEdlYXJib3gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Optic.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXE9wdGljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Pendant.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXFBlbmRhbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Pneumatics.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXFBuZXVtYXRpY3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Reductors.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXFJlZHVjdG9ycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/SteeringControl.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXFN0ZWVyaW5nQ29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Categories/Transmission.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yaWVzXFRyYW5zbWlzc2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Pages/Main.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNYWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Scripts/CallRequestForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTY3JpcHRzXENhbGxSZXF1ZXN0Rm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qt61i8t742
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hhlh039i37
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-f1ox0d85va
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Main/Advantages.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpblxBZHZhbnRhZ2VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qo63gulj4h
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Main/HeroSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpblxIZXJvU2VjdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-fpzodgob7f
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Main/PartsCategories.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpblxQYXJ0c0NhdGVnb3JpZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zkv6oya24a
+
+[C:/Users/tanas/Desktop/AtbWeb/Components/Layout/Main/TransportationSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpblxUcmFuc3BvcnRhdGlvblNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2vhsxuejgm

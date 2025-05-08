@@ -1,0 +1,43 @@
+﻿@using AtbWeb.Components.Clasess;
+@code {
+    [Parameter] public string ProductName { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+
+    private CallRequest callRequest = new CallRequest();
+
+    private async Task SubmitForm()
+    {
+        if (string.IsNullOrEmpty(callRequest.Name) || string.IsNullOrEmpty(callRequest.Phone))
+        {
+            Console.WriteLine("Необходимо заполнить все поля.");
+        }
+        else
+        {
+            Console.WriteLine($"Товар: {ProductName}, Имя: {callRequest.Name}, Телефон: {callRequest.Phone}");
+            await OnClose.InvokeAsync();
+        }
+    }
+}
+
+<div class="modal">
+    <div class="modal-content">
+        <span class="close-btn" @onclick="@(() => OnClose.InvokeAsync())">&times;</span>
+
+        <h2>Заявка</h2>
+
+        <EditForm Model="callRequest" OnValidSubmit="SubmitForm">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <label for="name">Ваше имя:</label>
+            <InputText id="name" @bind-Value="callRequest.Name" required />
+            <br />
+
+            <label for="phone">Ваш телефон:</label>
+            <InputText id="phone" @bind-Value="callRequest.Phone" required />
+            <br />
+
+            <button type="submit">Отправить</button>
+        </EditForm>
+    </div>
+</div>

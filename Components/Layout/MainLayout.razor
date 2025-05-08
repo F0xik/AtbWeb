@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+<title>АТБ-14</title>
+<div class="main-layout">
+    <header>
+        <Header />
+    </header>
+
+    <main>
+        @Body
+    </main>
+
+    <footer>
+        <Footer />
+    </footer>
+</div>
+
+<script>
+    window.scrollToTop = function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>

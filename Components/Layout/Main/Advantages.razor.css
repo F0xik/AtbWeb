@@ -1,0 +1,37 @@
+﻿
+.advantages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 250px;
+}
+
+    .advantage img {
+        height: 150px;
+        width: auto;
+        object-fit: contain;
+        margin-bottom: 25px;
+    }
+
+    .advantage h3 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .advantage p {
+        font-size: 18px;
+        color: #666;
+    }
+

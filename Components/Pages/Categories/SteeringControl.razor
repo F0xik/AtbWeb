@@ -1,0 +1,99 @@
+﻿@inject IJSRuntime JS
+@page "/steering-control"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Рулевое управление</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск деталей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var detail in SteeringControlDetails.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@detail.ImageUrl" alt="@detail.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@detail.Name</h3>
+                <p class="list-info">@detail.Description</p>
+                <p class="list-coast">@detail.Coast ₽</p>
+                <button class="details-button" @onclick="() => ShowModal(detail.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < SteeringControlDetails.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Detail> SteeringControlDetails = new()
+    {
+        new Detail { Name = "Рулевая рейка", ImageUrl = "/images/steeringControl/steering-rack.jpg", Description = "Рулевая рейка для легковых автомобилей", Coast = 12000 },
+        new Detail { Name = "Гидроусилитель руля", ImageUrl = "/images/steeringControl/steering-power-steering.jpg", Description = "Гидроусилитель руля для комфортного управления", Coast = 15000 },
+        new Detail { Name = "Рулевая колонка", ImageUrl = "/images/steeringControl/steering-column.jpg", Description = "Рулевая колонка с системой безопасности", Coast = 8000 },
+        new Detail { Name = "Шарнир рулевой", ImageUrl = "/images/steeringControl/steering-joint.jpg", Description = "Шарнир рулевой системы для повышения прочности", Coast = 2500 },
+        new Detail { Name = "Усилитель руля", ImageUrl = "/images/steeringControl/steering-booster.jpg", Description = "Усилитель руля для легкости управления автомобилем", Coast = 7000 },
+        new Detail { Name = "Система контроля руля", ImageUrl = "/images/steeringControl/steering-control-system.jpg", Description = "Система контроля руля для автомобилей с электроусилителем", Coast = 22000 }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, SteeringControlDetails.Count);
+    }
+
+    private async Task ScrollToTop()
+    {
+        await JS.InvokeVoidAsync("scrollToTop");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToTop();
+        }
+    }
+   
+}

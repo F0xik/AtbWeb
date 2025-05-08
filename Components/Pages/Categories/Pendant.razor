@@ -1,0 +1,98 @@
+﻿@inject IJSRuntime JS
+@page "/pendant"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Подвеска</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск деталей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var detail in PendantDetails.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@detail.ImageUrl" alt="@detail.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@detail.Name</h3>
+                <p class="list-info">@detail.Description</p>
+                <p class="list-coast">@detail.Coast ₽</p>
+                <button class="details-button" @onclick="() => ShowModal(detail.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < PendantDetails.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Detail> PendantDetails = new()
+    {
+        new Detail { Name = "Амортизатор передний", ImageUrl = "/images/pendant/front-shock-absorber.jpg", Description = "Амортизатор для передней подвески", Coast = 3500 },
+        new Detail { Name = "Амортизатор задний", ImageUrl = "/images/pendant/rear-shock-absorber.jpg", Description = "Амортизатор для задней подвески", Coast = 4000 },
+        new Detail { Name = "Пружина подвески", ImageUrl = "/images/pendant/spring.jpg", Description = "Пружина для легковых автомобилей", Coast = 2500 },
+        new Detail { Name = "Рычаг подвески", ImageUrl = "/images/pendant/suspension-arm.jpg", Description = "Рычаг для подвески", Coast = 5500 },
+        new Detail { Name = "Опора амортизатора", ImageUrl = "/images/pendant/shock-absorber-mount.jpg", Description = "Опора для амортизатора", Coast = 1200 },
+        new Detail { Name = "Шаровая опора", ImageUrl = "/images/pendant/ball-joint.jpg", Description = "Шаровая опора для подвески", Coast = 2200 }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, PendantDetails.Count);
+    }
+
+    private async Task ScrollToTop()
+    {
+        await JS.InvokeVoidAsync("scrollToTop");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToTop();
+        }
+    }
+}

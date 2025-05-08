@@ -1,0 +1,54 @@
+
+
+.transportation-container[b-2vhsxuejgm] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px 10%;
+    margin-bottom: 60px;
+}
+
+.transportation-text[b-2vhsxuejgm] {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+    .transportation-text h1[b-2vhsxuejgm] {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .transportation-text p[b-2vhsxuejgm] {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #666;
+    }
+
+.transportation-btn[b-2vhsxuejgm] {
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+
+    .transportation-btn:hover[b-2vhsxuejgm] {
+        background: #333;
+    }
+
+.transportation-image img[b-2vhsxuejgm] {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+

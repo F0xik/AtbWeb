@@ -1,0 +1,98 @@
+﻿@inject IJSRuntime JS
+@page "/optic"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Оптика</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск деталей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var detail in OpticDetails.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@detail.ImageUrl" alt="@detail.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@detail.Name</h3>
+                <p class="list-info">@detail.Description</p>
+                <p class="list-coast">@detail.Coast ₽</p>
+                <button class="details-button" @onclick="() => ShowModal(detail.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < OpticDetails.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Detail> OpticDetails = new()
+    {
+        new Detail { Name = "Фары LED", ImageUrl = "/images/optic/led-headlights.jpg", Description = "Яркие и энергоэффективные фары для авто", Coast = 5500 },
+        new Detail { Name = "Фары ксеноновые", ImageUrl = "/images/optic/xenon-headlights.jpg", Description = "Фары с высоким качеством света и долгим сроком службы", Coast = 6500 },
+        new Detail { Name = "Противотуманные фары", ImageUrl = "/images/optic/fog-lights.jpg", Description = "Эффективные противотуманные фары для безопасной езды", Coast = 4500 },
+        new Detail { Name = "Задние фонари", ImageUrl = "/images/optic/rear-lights.jpg", Description = "Оригинальные задние фонари для различных моделей автомобилей", Coast = 3500 },
+        new Detail { Name = "Поворотники LED", ImageUrl = "/images/optic/turn-signals.jpg", Description = "Яркие поворотники для лучшей видимости", Coast = 2000 },
+        new Detail { Name = "Фары для внедорожников", ImageUrl = "/images/optic/offroad-headlights.jpg", Description = "Усиленные фары для внедорожных автомобилей", Coast = 8000 }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, OpticDetails.Count);
+    }
+
+    private async Task ScrollToTop()
+    {
+        await JS.InvokeVoidAsync("scrollToTop");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToTop();
+        }
+    }
+}

@@ -1,0 +1,102 @@
+﻿@inject IJSRuntime JS
+@page "/electric"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Электрика</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск деталей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var detail in Details.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@detail.ImageUrl" alt="@detail.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@detail.Name</h3>
+                <p class="list-info">@detail.Description</p>
+                <p class="list-coast">@detail.Coast ₽</p>
+                <button class="details-button" @onclick="() => ShowModal(detail.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < Details.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Detail> Details = new()
+    {
+        new Detail { Name = "Аккумулятор", ImageUrl = "/images/electric/battery.jpg", Description = "Основной источник питания для электрической системы автомобиля", Coast = 5000 },
+        new Detail { Name = "Генератор", ImageUrl = "/images/electric/generator.jpg", Description = "Генерирует электричество для автомобиля", Coast = 12000 },
+        new Detail { Name = "Стартер", ImageUrl = "/images/electric/starter.jpg", Description = "Отвечает за запуск двигателя", Coast = 8000 },
+        new Detail { Name = "Предохранитель", ImageUrl = "/images/electric/fuse.jpg", Description = "Обеспечивает защиту электрической системы от перегрузки", Coast = 200 },
+        new Detail { Name = "Реле", ImageUrl = "/images/electric/relay.jpg", Description = "Переключает электрические цепи", Coast = 1500 },
+        new Detail { Name = "Светодиоды", ImageUrl = "/images/electric/leds.jpg", Description = "Энергоэффективные источники света для автомобиля", Coast = 1000 },
+        new Detail { Name = "Проводка", ImageUrl = "/images/electric/wiring.jpg", Description = "Элементы для подключения электрических компонентов", Coast = 500 },
+        new Detail { Name = "Фара", ImageUrl = "/images/electric/headlight.jpg", Description = "Основной источник света для автомобиля", Coast = 3500 }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, Details.Count);
+    }
+
+    private async Task ScrollToTop()
+    {
+        await JS.InvokeVoidAsync("scrollToTop");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToTop();
+        }
+    }
+
+   
+}

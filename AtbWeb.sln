@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtbWeb", "AtbWeb.csproj", "{903653BF-E134-4B59-BEA7-46D8C0A1429E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{903653BF-E134-4B59-BEA7-46D8C0A1429E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903653BF-E134-4B59-BEA7-46D8C0A1429E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903653BF-E134-4B59-BEA7-46D8C0A1429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903653BF-E134-4B59-BEA7-46D8C0A1429E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ADBE298-1385-4F7A-A724-8D1970E0DB1A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,645 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AtbWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AtbWeb.ld5fh6k1um.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\icons\\phone.svg",
+      "PackagePath": "staticwebassets\\icons\\phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\icons\\searchbut.svg",
+      "PackagePath": "staticwebassets\\icons\\searchbut.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\icons\\telegram.svg",
+      "PackagePath": "staticwebassets\\icons\\telegram.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\icons\\vk.svg",
+      "PackagePath": "staticwebassets\\icons\\vk.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\icons\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\icons\\whatsapp.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\adaptation.png",
+      "PackagePath": "staticwebassets\\images\\adaptation.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\bodycar\\front-bumper.jpg",
+      "PackagePath": "staticwebassets\\images\\bodycar\\front-bumper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\bodycar\\front-left-fender.jpg",
+      "PackagePath": "staticwebassets\\images\\bodycar\\front-left-fender.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\bodycar\\front-right-door.jpg",
+      "PackagePath": "staticwebassets\\images\\bodycar\\front-right-door.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\bodycar\\grill.jpg",
+      "PackagePath": "staticwebassets\\images\\bodycar\\grill.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\bodycar\\hood.jpg",
+      "PackagePath": "staticwebassets\\images\\bodycar\\hood.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\bodycar\\side-mirror.jpg",
+      "PackagePath": "staticwebassets\\images\\bodycar\\side-mirror.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\brakingSyster\\booster.jpg",
+      "PackagePath": "staticwebassets\\images\\brakingSyster\\booster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\brakingSyster\\caliper.jpg",
+      "PackagePath": "staticwebassets\\images\\brakingSyster\\caliper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\brakingSyster\\front-disc.jpg",
+      "PackagePath": "staticwebassets\\images\\brakingSyster\\front-disc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\brakingSyster\\hose.jpg",
+      "PackagePath": "staticwebassets\\images\\brakingSyster\\hose.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\brakingSyster\\master-cylinder.jpg",
+      "PackagePath": "staticwebassets\\images\\brakingSyster\\master-cylinder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\brakingSyster\\rear-pads.jpg",
+      "PackagePath": "staticwebassets\\images\\brakingSyster\\rear-pads.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\cabins\\cab-body.jpg",
+      "PackagePath": "staticwebassets\\images\\cabins\\cab-body.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\cabins\\dashboard.jpg",
+      "PackagePath": "staticwebassets\\images\\cabins\\dashboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\cabins\\driver-seat.jpg",
+      "PackagePath": "staticwebassets\\images\\cabins\\driver-seat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\cabins\\headliner.jpg",
+      "PackagePath": "staticwebassets\\images\\cabins\\headliner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\cabins\\high-roof.jpg",
+      "PackagePath": "staticwebassets\\images\\cabins\\high-roof.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\cabins\\sunroof.jpg",
+      "PackagePath": "staticwebassets\\images\\cabins\\sunroof.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\cabin-filter.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\cabin-filter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\climate-panel.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\climate-panel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\compressor.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\compressor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\condenser.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\condenser.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\evaporator.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\evaporator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\fan-resistor.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\fan-resistor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\conditioner\\heater-fan.jpg",
+      "PackagePath": "staticwebassets\\images\\conditioner\\heater-fan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\coolingSystem\\truck1.jpg",
+      "PackagePath": "staticwebassets\\images\\coolingSystem\\truck1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\coolingSystem\\truck2.jpg",
+      "PackagePath": "staticwebassets\\images\\coolingSystem\\truck2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\coolingSystem\\truck3.jpg",
+      "PackagePath": "staticwebassets\\images\\coolingSystem\\truck3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\coolingSystem\\truck4.jpg",
+      "PackagePath": "staticwebassets\\images\\coolingSystem\\truck4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\coolingSystem\\truck5.jpg",
+      "PackagePath": "staticwebassets\\images\\coolingSystem\\truck5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\coolingSystem\\truck6.jpg",
+      "PackagePath": "staticwebassets\\images\\coolingSystem\\truck6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\battery.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\battery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\fuse.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\fuse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\generator.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\generator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\headlight.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\headlight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\leds.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\leds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\relay.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\relay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\starter.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\starter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\electric\\wiring.jpg",
+      "PackagePath": "staticwebassets\\images\\electric\\wiring.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\diesel-engine.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\diesel-engine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\electric-motor.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\electric-motor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\hybrid-engine.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\hybrid-engine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\sport-car-engine.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\sport-car-engine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\truck-engine.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\truck-engine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\v12.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\v12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\v6.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\v6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\engine\\v8.jpg",
+      "PackagePath": "staticwebassets\\images\\engine\\v8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\catalytic-converter.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\catalytic-converter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\cleaning-module.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\cleaning-module.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\exhaust-heat-shield.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\exhaust-heat-shield.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\exhaust-pipe.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\exhaust-pipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\flame-arrester.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\flame-arrester.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\flex-pipe.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\flex-pipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\muffler.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\muffler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\exhaustSystem\\resonator.jpg",
+      "PackagePath": "staticwebassets\\images\\exhaustSystem\\resonator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\footerlogo.png",
+      "PackagePath": "staticwebassets\\images\\footerlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\footerlogo.svg",
+      "PackagePath": "staticwebassets\\images\\footerlogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-filter.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-filter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-injection-system.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-injection-system.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-injector.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-injector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-level-sensor.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-level-sensor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-line.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-line.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-pressure-regulator.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-pressure-regulator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-pump.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-pump.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\fuelEquipment\\fuel-tank.jpg",
+      "PackagePath": "staticwebassets\\images\\fuelEquipment\\fuel-tank.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\gearbox\\automatic.jpg",
+      "PackagePath": "staticwebassets\\images\\gearbox\\automatic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\gearbox\\cvt.jpg",
+      "PackagePath": "staticwebassets\\images\\gearbox\\cvt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\gearbox\\hybrid.jpg",
+      "PackagePath": "staticwebassets\\images\\gearbox\\hybrid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\gearbox\\mechanical.jpg",
+      "PackagePath": "staticwebassets\\images\\gearbox\\mechanical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\gearbox\\offroad.jpg",
+      "PackagePath": "staticwebassets\\images\\gearbox\\offroad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\gearbox\\robotic.jpg",
+      "PackagePath": "staticwebassets\\images\\gearbox\\robotic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\headerLogo.svg",
+      "PackagePath": "staticwebassets\\images\\headerLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\low-cost.png",
+      "PackagePath": "staticwebassets\\images\\low-cost.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\optic\\fog-lights.jpg",
+      "PackagePath": "staticwebassets\\images\\optic\\fog-lights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\optic\\led-headlights.jpg",
+      "PackagePath": "staticwebassets\\images\\optic\\led-headlights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\optic\\offroad-headlights.jpg",
+      "PackagePath": "staticwebassets\\images\\optic\\offroad-headlights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\optic\\rear-lights.jpg",
+      "PackagePath": "staticwebassets\\images\\optic\\rear-lights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\optic\\turn-signals.jpg",
+      "PackagePath": "staticwebassets\\images\\optic\\turn-signals.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\optic\\xenon-headlights.jpg",
+      "PackagePath": "staticwebassets\\images\\optic\\xenon-headlights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pendant\\ball-joint.jpg",
+      "PackagePath": "staticwebassets\\images\\pendant\\ball-joint.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pendant\\front-shock-absorber.jpg",
+      "PackagePath": "staticwebassets\\images\\pendant\\front-shock-absorber.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pendant\\rear-shock-absorber.jpg",
+      "PackagePath": "staticwebassets\\images\\pendant\\rear-shock-absorber.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pendant\\shock-absorber-mount.jpg",
+      "PackagePath": "staticwebassets\\images\\pendant\\shock-absorber-mount.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pendant\\spring.jpg",
+      "PackagePath": "staticwebassets\\images\\pendant\\spring.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pendant\\suspension-arm.jpg",
+      "PackagePath": "staticwebassets\\images\\pendant\\suspension-arm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\ac.png",
+      "PackagePath": "staticwebassets\\images\\plates\\ac.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\body.png",
+      "PackagePath": "staticwebassets\\images\\plates\\body.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\brakes.png",
+      "PackagePath": "staticwebassets\\images\\plates\\brakes.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\cabin.png",
+      "PackagePath": "staticwebassets\\images\\plates\\cabin.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\cooling.png",
+      "PackagePath": "staticwebassets\\images\\plates\\cooling.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\electrics.png",
+      "PackagePath": "staticwebassets\\images\\plates\\electrics.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\engine.png",
+      "PackagePath": "staticwebassets\\images\\plates\\engine.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\exhaust.png",
+      "PackagePath": "staticwebassets\\images\\plates\\exhaust.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\fuel.png",
+      "PackagePath": "staticwebassets\\images\\plates\\fuel.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\gearbox.png",
+      "PackagePath": "staticwebassets\\images\\plates\\gearbox.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\optics.png",
+      "PackagePath": "staticwebassets\\images\\plates\\optics.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\pneumatics.png",
+      "PackagePath": "staticwebassets\\images\\plates\\pneumatics.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\reducer.png",
+      "PackagePath": "staticwebassets\\images\\plates\\reducer.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\steering.png",
+      "PackagePath": "staticwebassets\\images\\plates\\steering.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\suspension.png",
+      "PackagePath": "staticwebassets\\images\\plates\\suspension.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\plates\\transmission.png",
+      "PackagePath": "staticwebassets\\images\\plates\\transmission.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pneumatics\\air-filter.jpg",
+      "PackagePath": "staticwebassets\\images\\pneumatics\\air-filter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pneumatics\\air-hose.jpg",
+      "PackagePath": "staticwebassets\\images\\pneumatics\\air-hose.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pneumatics\\air-suspension.jpg",
+      "PackagePath": "staticwebassets\\images\\pneumatics\\air-suspension.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pneumatics\\air-valve.jpg",
+      "PackagePath": "staticwebassets\\images\\pneumatics\\air-valve.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pneumatics\\compressor.jpg",
+      "PackagePath": "staticwebassets\\images\\pneumatics\\compressor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\pneumatics\\impact-wrench.jpg",
+      "PackagePath": "staticwebassets\\images\\pneumatics\\impact-wrench.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reductors\\conical-gearbox.jpg",
+      "PackagePath": "staticwebassets\\images\\reductors\\conical-gearbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reductors\\cylindrical-gearbox.jpg",
+      "PackagePath": "staticwebassets\\images\\reductors\\cylindrical-gearbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reductors\\hypoid-gearbox.jpg",
+      "PackagePath": "staticwebassets\\images\\reductors\\hypoid-gearbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reductors\\planetary-gearbox.jpg",
+      "PackagePath": "staticwebassets\\images\\reductors\\planetary-gearbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reductors\\variator-gearbox.jpg",
+      "PackagePath": "staticwebassets\\images\\reductors\\variator-gearbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reductors\\worm-gearbox.jpg",
+      "PackagePath": "staticwebassets\\images\\reductors\\worm-gearbox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\reliability.png",
+      "PackagePath": "staticwebassets\\images\\reliability.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\sec.png",
+      "PackagePath": "staticwebassets\\images\\sec.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\speed1.png",
+      "PackagePath": "staticwebassets\\images\\speed1.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\steeringControl\\steering-booster.jpg",
+      "PackagePath": "staticwebassets\\images\\steeringControl\\steering-booster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\steeringControl\\steering-column.jpg",
+      "PackagePath": "staticwebassets\\images\\steeringControl\\steering-column.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\steeringControl\\steering-control-system.jpg",
+      "PackagePath": "staticwebassets\\images\\steeringControl\\steering-control-system.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\steeringControl\\steering-joint.jpg",
+      "PackagePath": "staticwebassets\\images\\steeringControl\\steering-joint.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\steeringControl\\steering-power-steering.jpg",
+      "PackagePath": "staticwebassets\\images\\steeringControl\\steering-power-steering.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\steeringControl\\steering-rack.jpg",
+      "PackagePath": "staticwebassets\\images\\steeringControl\\steering-rack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\support.png",
+      "PackagePath": "staticwebassets\\images\\support.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\team.png",
+      "PackagePath": "staticwebassets\\images\\team.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\testtruclist.png",
+      "PackagePath": "staticwebassets\\images\\testtruclist.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transmission\\4x4-transmission.jpg",
+      "PackagePath": "staticwebassets\\images\\transmission\\4x4-transmission.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transmission\\automatic-transmission.jpg",
+      "PackagePath": "staticwebassets\\images\\transmission\\automatic-transmission.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transmission\\clutch.jpg",
+      "PackagePath": "staticwebassets\\images\\transmission\\clutch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transmission\\manual-transmission.jpg",
+      "PackagePath": "staticwebassets\\images\\transmission\\manual-transmission.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transmission\\timing-belt.jpg",
+      "PackagePath": "staticwebassets\\images\\transmission\\timing-belt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transmission\\transmission-turbine.jpg",
+      "PackagePath": "staticwebassets\\images\\transmission\\transmission-turbine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\transportation.jpg",
+      "PackagePath": "staticwebassets\\images\\transportation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\truck.png",
+      "PackagePath": "staticwebassets\\images\\truck.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\truck.svg",
+      "PackagePath": "staticwebassets\\images\\truck.svg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\truck1.png",
+      "PackagePath": "staticwebassets\\images\\truck1.png"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck1.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck2.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck3.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck4.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck5.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck6.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck7.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck8.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\images\\trucks\\truck9.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tanas\\Desktop\\AtbWeb\\wwwroot\\logo.svg",
+      "PackagePath": "staticwebassets\\logo.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AtbWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AtbWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AtbWeb.props",
+      "PackagePath": "build\\AtbWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AtbWeb.props",
+      "PackagePath": "buildMultiTargeting\\AtbWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AtbWeb.props",
+      "PackagePath": "buildTransitive\\AtbWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,37 @@
+﻿@using AtbWeb.Components
+@using AtbWeb.Components.Scripts
+
+@code {
+    private bool isModalOpen = false;
+
+    private void OpenModal()
+    {
+        isModalOpen = true;
+    }
+
+    private void CloseModal()
+    {
+        isModalOpen = false;
+    }
+}
+<div id="transportation" class="transportation-section">
+    <div class="section-title-container">
+        <h2 class="section-title">Грузоперевозки</h2>
+    </div>
+    <div class="transportation-container">
+        <div class="transportation-text">
+            <h1>Грузоперевозки по Санкт-Петербургу и области</h1>
+            <p>Мы предоставляем надежные и доступные услуги грузоперевозок с гарантией безопасности вашего груза.</p>
+            <p>Наш автопарк включает современные грузовики разной грузоподъемности, что позволяет нам работать с любыми типами грузов.</p>
+            <button class="transportation-btn" @onclick="OpenModal">Заказать звонок</button>
+        </div>
+        <div class="transportation-image">
+            <img src="images/transportation.jpg" alt="Грузоперевозки">
+        </div>
+    </div>
+</div>
+
+@if (isModalOpen)
+{
+    <CallRequestForm OnClose="CloseModal" />
+}

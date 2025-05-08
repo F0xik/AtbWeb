@@ -1,0 +1,98 @@
+﻿@inject IJSRuntime JS
+@page "/transmission"
+@rendermode InteractiveServer
+@using AtbWeb.Components
+@using AtbWeb.Components.Clasess
+@using AtbWeb.Components.Scripts
+
+<div class="details-container">
+    <div class="section-title-container">
+        <h2 class="section-title">Трансмиссия</h2>
+    </div>
+
+    <div class="list-header">
+        <div class="header-controls">
+            <div class="search-box">
+                <button class="filter-button">Фильтр</button>
+                <input type="search" placeholder="Поиск деталей..." class="search-input" />
+                <button class="search-icon" >
+                    <img src="/icons/searchbut.svg" alt="Search" />
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-grid">
+        @foreach (var detail in TransmissionDetails.Take(visibleCount))
+        {
+            <div class="list-card">
+                <div class="list-image-container">
+                    <img src="@detail.ImageUrl" alt="@detail.Name" class="list-image" />
+                </div>
+                <h3 class="list-name">@detail.Name</h3>
+                <p class="list-info">@detail.Description</p>
+                <p class="list-coast">@detail.Coast ₽</p>
+                <button class="details-button" @onclick="() => ShowModal(detail.Name)">ПОДРОБНЕЕ</button>
+            </div>
+        }
+    </div>
+
+    @if (visibleCount < TransmissionDetails.Count)
+    {
+        <div class="load-more-container">
+            <button class="load-more-button" @onclick="LoadMore">Посмотреть ещё</button>
+        </div>
+    }
+
+    @if (showModal)
+    {
+        <CallRequestForm ProductName="@selectedProductName" OnClose="CloseModal" />
+    }
+</div>
+
+@code {
+    private int visibleCount = 6;
+    private const int LoadMoreStep = 3;
+    private bool showModal = false;
+    private string selectedProductName;
+
+    private List<Detail> TransmissionDetails = new()
+    {
+        new Detail { Name = "Механическая коробка передач", ImageUrl = "/images/transmission/manual-transmission.jpg", Description = "Механическая коробка передач для легковых автомобилей", Coast = 15000 },
+        new Detail { Name = "Автоматическая коробка передач", ImageUrl = "/images/transmission/automatic-transmission.jpg", Description = "Автоматическая коробка передач для комфортного вождения", Coast = 22000 },
+        new Detail { Name = "Сцепление", ImageUrl = "/images/transmission/clutch.jpg", Description = "Сцепление для автомобилей с механической коробкой", Coast = 5000 },
+        new Detail { Name = "Ремень ГРМ", ImageUrl = "/images/transmission/timing-belt.jpg", Description = "Ремень ГРМ для коробки передач", Coast = 2500 },
+        new Detail { Name = "Турбина для коробки передач", ImageUrl = "/images/transmission/transmission-turbine.jpg", Description = "Турбина для коробки передач, улучшенная версия", Coast = 18000 },
+        new Detail { Name = "Коробка передач для внедорожников", ImageUrl = "/images/transmission/4x4-transmission.jpg", Description = "Коробка передач для внедорожных автомобилей", Coast = 35000 }
+    };
+
+    private void ShowModal(string name)
+    {
+        selectedProductName = name;
+        showModal = true;
+    }
+
+    private Task CloseModal()
+    {
+        showModal = false;
+        return Task.CompletedTask;
+    }
+
+    private void LoadMore()
+    {
+        visibleCount = Math.Min(visibleCount + LoadMoreStep, TransmissionDetails.Count);
+    }
+
+    private async Task ScrollToTop()
+    {
+        await JS.InvokeVoidAsync("scrollToTop");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToTop();
+        }
+    }
+}
