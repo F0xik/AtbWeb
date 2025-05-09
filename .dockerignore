@@ -1,0 +1,6 @@
+﻿bin/
+obj/
+.git/
+.vs/
+Dockerfile
+*.sin

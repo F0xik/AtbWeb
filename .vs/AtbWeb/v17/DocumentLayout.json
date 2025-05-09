@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\tanas\\Desktop\\AtbWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\layout\\main\\truckslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\layout\\main\\truckslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\layout\\main\\transportationsection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\layout\\main\\transportationsection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\pages\\categories\\fuelequipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\pages\\categories\\fuelequipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\layout\\main\\herosection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\layout\\main\\herosection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\layout\\main\\partscategories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\layout\\main\\partscategories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\layout\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\pages\\categories\\reductors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\pages\\categories\\reductors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\pages\\categories\\conditioner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\pages\\categories\\bodycar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\pages\\categories\\bodycar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\pages\\categories\\pendant.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\pages\\categories\\pendant.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\pages\\categories\\fuelequipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|solutionrelative:components\\pages\\categories\\fuelequipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{903653BF-E134-4B59-BEA7-46D8C0A1429E}|AtbWeb.csproj|c:\\users\\tanas\\desktop\\atbweb\\components\\pages\\categories\\engine.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -86,35 +106,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Header.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Header.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\Header.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Header.razor",
+              "RelativeToolTip": "Components\\Layout\\Header.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T18:55:56.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeroSection.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\HeroSection.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\Main\\HeroSection.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\HeroSection.razor",
+              "RelativeToolTip": "Components\\Layout\\Main\\HeroSection.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T18:55:08.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PartsCategories.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\PartsCategories.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\Main\\PartsCategories.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\PartsCategories.razor",
+              "RelativeToolTip": "Components\\Layout\\Main\\PartsCategories.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T18:07:50.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransportationSection.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\TransportationSection.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\Main\\TransportationSection.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\TransportationSection.razor",
+              "RelativeToolTip": "Components\\Layout\\Main\\TransportationSection.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T18:07:48.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrucksList.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\TrucksList.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\Main\\TrucksList.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\Main\\TrucksList.razor",
+              "RelativeToolTip": "Components\\Layout\\Main\\TrucksList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T18:07:45.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T22:48:40.375Z"
+              "WhenOpened": "2025-05-08T22:48:40.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gearbox.razor",
-              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Gearbox.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Gearbox.razor",
-              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Gearbox.razor",
-              "RelativeToolTip": "Components\\Pages\\Categories\\Gearbox.razor",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T22:45:38.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Optic.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Optic.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Optic.razor",
@@ -126,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Pendant.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Pendant.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Pendant.razor",
@@ -138,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Pneumatics.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Pneumatics.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Pneumatics.razor",
@@ -150,7 +224,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "FuelEquipment.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\FuelEquipment.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Categories\\FuelEquipment.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\FuelEquipment.razor",
+              "RelativeToolTip": "Components\\Pages\\Categories\\FuelEquipment.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T22:45:35.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gearbox.razor",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Gearbox.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Gearbox.razor",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Gearbox.razor",
+              "RelativeToolTip": "Components\\Pages\\Categories\\Gearbox.razor",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T22:45:38.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Reductors.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Reductors.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Reductors.razor",
@@ -158,12 +257,11 @@
               "RelativeToolTip": "Components\\Pages\\Categories\\Reductors.razor",
               "ViewState": "AgIAAEQAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T22:45:51.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T22:45:51.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "SteeringControl.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\SteeringControl.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\SteeringControl.razor",
@@ -175,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Transmission.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Transmission.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Transmission.razor",
@@ -187,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Conditioner.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Conditioner.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Conditioner.razor",
@@ -199,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ExhaustSystem.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\ExhaustSystem.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\ExhaustSystem.razor",
@@ -211,19 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FuelEquipment.razor",
-              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\FuelEquipment.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Categories\\FuelEquipment.razor",
-              "ToolTip": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\FuelEquipment.razor",
-              "RelativeToolTip": "Components\\Pages\\Categories\\FuelEquipment.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T22:45:35.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Bodycar.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Bodycar.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Bodycar.razor",
@@ -235,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Engine.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Engine.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Engine.razor",
@@ -247,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Electric.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Electric.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Electric.razor",
@@ -259,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CoolingSystem.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\CoolingSystem.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\CoolingSystem.razor",
@@ -271,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Cabins.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\Cabins.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\Cabins.razor",
@@ -283,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "BrakingSystem.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Pages\\Categories\\BrakingSystem.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Categories\\BrakingSystem.razor",
@@ -295,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
@@ -307,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\AtbWeb\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "Components\\Routes.razor",
